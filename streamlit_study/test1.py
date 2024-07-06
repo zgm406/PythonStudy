@@ -1,4 +1,7 @@
 import streamlit as st
+import pandas as pd
+
+df = pd.read_excel("")
 
 st.title("我的第一个 streamlit 应用")
 st.text("欢迎使用 streamlit")
